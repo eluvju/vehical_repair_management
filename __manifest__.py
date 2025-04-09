@@ -41,6 +41,7 @@
         'report/receipt.xml',
         'data/service_sequence.xml',
     ],
+    'i18n': ['i18n/pt_BR.po'],
     'images': [
         'static/description/banner.png',
     ],

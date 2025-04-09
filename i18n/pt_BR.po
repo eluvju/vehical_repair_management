@@ -1,0 +1,166 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* vehicle_repair_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-20 00:00+0000\n"
+"PO-Revision-Date: 2024-01-20 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Brazil)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: vehicle_repair_management
+#: model:ir.module.category,name:vehicle_repair_management.module_category_vehicle_repair
+msgid "Vehicle Repair Management"
+msgstr "Gestão de Reparação de Veículos"
+
+#. module: vehicle_repair_management
+#: model:ir.actions.act_window,name:vehicle_repair_management.action_vehicle_repair_work_order
+msgid "Vehicle Repair Orders"
+msgstr "Ordens de Reparo de Veículos"
+
+#. module: vehicle_repair_management
+#: model_terms:ir.ui.view,arch_db:vehicle_repair_management.view_vehicle_repair_work_order_form
+msgid "Registration Form"
+msgstr "Formulário de Registro"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__name
+msgid "Order Reference"
+msgstr "Referência do Pedido"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__plate_no
+msgid "Plate No"
+msgstr "Placa do Veículo"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__customer_id
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__phone
+msgid "Phone"
+msgstr "Telefone"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__email
+msgid "Email"
+msgstr "E-mail"
+
+#. module: vehicle_repair_management
+#: model_terms:ir.ui.view,arch_db:vehicle_repair_management.view_vehicle_repair_work_order_form
+msgid "Basic Information"
+msgstr "Informações Básicas"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__date
+msgid "Date"
+msgstr "Data"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__delivery_date
+msgid "Delivery Date"
+msgstr "Data de Entrega"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__issue
+msgid "Issue"
+msgstr "Problema"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__state
+msgid "Status"
+msgstr "Situação"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields.selection,name:vehicle_repair_management.selection__vehicle_repair_work_order__state__draft
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields.selection,name:vehicle_repair_management.selection__vehicle_repair_work_order__state__confirm
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields.selection,name:vehicle_repair_management.selection__vehicle_repair_work_order__state__under_process
+msgid "Under Process"
+msgstr "Em Processo"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields.selection,name:vehicle_repair_management.selection__vehicle_repair_work_order__state__done
+msgid "Done"
+msgstr "Concluído"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields.selection,name:vehicle_repair_management.selection__vehicle_repair_work_order__state__cancel
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: vehicle_repair_management
+#: model_terms:ir.ui.view,arch_db:vehicle_repair_management.view_vehicle_repair_work_order_form
+msgid "Work Sheet"
+msgstr "Folha de Trabalho"
+
+#. module: vehicle_repair_management
+#: model_terms:ir.ui.view,arch_db:vehicle_repair_management.view_vehicle_repair_work_order_form
+msgid "Parts Used"
+msgstr "Peças Utilizadas"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__cost_type
+msgid "Price Type"
+msgstr "Tipo de Preço"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__subtotal
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#. module: vehicle_repair_management
+#: model_terms:ir.ui.view,arch_db:vehicle_repair_management.view_vehicle_repair_work_order_form
+msgid "Confirm Service"
+msgstr "Confirmar Serviço"
+
+#. module: vehicle_repair_management
+#: model_terms:ir.ui.view,arch_db:vehicle_repair_management.view_vehicle_repair_work_order_form
+msgid "Finish Service"
+msgstr "Finalizar Serviço"
+
+#. module: vehicle_repair_management
+#: model_terms:ir.ui.view,arch_db:vehicle_repair_management.view_vehicle_repair_work_order_form
+msgid "Cancel Service"
+msgstr "Cancelar Serviço"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__brand_id
+msgid "Brand"
+msgstr "Marca"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__model
+msgid "Model"
+msgstr "Modelo"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__color
+msgid "Color"
+msgstr "Cor"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__repair_team_ids
+msgid "Repair Team"
+msgstr "Equipe de Reparo"
+
+#. module: vehicle_repair_management
+#: model:ir.model.fields,field_description:vehicle_repair_management.field_vehicle_repair_work_order__team_member_ids
+msgid "Team Members"
+msgstr "Membros da Equipe"

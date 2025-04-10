@@ -101,7 +101,7 @@
             <field name="inherit_id" ref="hr.view_employee_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='category_ids']" position="after">
-                    <div name="options" groups="base.group_user">
+                    <div name="options">
                         <div>
                             <field name="is_mechanic" class="ml-3"/>
                             <label for="is_mechanic"/>

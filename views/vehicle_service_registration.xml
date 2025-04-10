@@ -221,7 +221,7 @@
                                             <field class="oe_read_only" name="fuel_gauge"
                                                    attrs="{'readonly': [('state', '=', 'done')]}"
                                                    widget="gauge"
-                                                   options="{'label_field': 'fuel_gauge_unit', 'maxValue': 100, 'maxValueField': 'fuel_gauge_max'}"/>
+                                                   options="{'label_field': 'fuel_gauge_unit', 'maxValue': '100', 'max_value_field': 'fuel_gauge_max'}"/>
                                         </div>
                                         <field name="fuel_type_id" attrs="{'readonly': [('state', '=', 'done')]}"
                                                options="{'no_open': True}"/>

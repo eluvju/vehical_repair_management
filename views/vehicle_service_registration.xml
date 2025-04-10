@@ -99,8 +99,8 @@
                         <label for="issue_unknown" string="I Don't Know What Needs To Be Done"/>
                         <field name="issue_unknown"/>
                         <div attrs="{'invisible': [('issue_unknown', '=', False)]}">
-                            <span>Not sure what’s wrong? No problem, the Boys have you covered. Just bring your vehicle
-                                in and we’ll take care of the rest.
+                            <span>Not sure what's wrong? No problem, the Boys have you covered. Just bring your vehicle
+                                in and we'll take care of the rest.
                             </span>
                         </div>
                         <group string="Issue">
@@ -221,7 +221,7 @@
                                             <field class="oe_read_only" name="fuel_gauge"
                                                    attrs="{'readonly': [('state', '=', 'done')]}"
                                                    widget="gauge"
-                                                   options="{'label_field': 'fuel_gauge_unit'}"/>
+                                                   options="{'label_field': 'fuel_gauge_unit', 'maxValueField': 'fuel_gauge_max'}"/>
                                         </div>
                                         <field name="fuel_type_id" attrs="{'readonly': [('state', '=', 'done')]}"
                                                options="{'no_open': True}"/>

@@ -99,8 +99,8 @@
                         <label for="issue_unknown" string="I Don't Know What Needs To Be Done"/>
                         <field name="issue_unknown"/>
                         <div attrs="{'invisible': [('issue_unknown', '=', False)]}">
-                            <span>Not sure what's wrong? No problem, the Boys have you covered. Just bring your vehicle
-                                in and we'll take care of the rest.
+                            <span>Not sure what’s wrong? No problem, the Boys have you covered. Just bring your vehicle
+                                in and we’ll take care of the rest.
                             </span>
                         </div>
                         <group string="Issue">
@@ -218,15 +218,10 @@
                                             <field class="oe_edit_only" name="fuel_gauge_unit"
                                                    placeholder="eg. % or Liter or Unit etc."
                                                    attrs="{'readonly': [('state', '=', 'done')]}"/>
-                                            <!-- Adicione este campo antes do gauge -->
-                                            <field class="oe_edit_only" name="fuel_gauge_max" 
-                                                   attrs="{'readonly': [('state', '=', 'done')]}" 
-                                                   invisible="1"/>
                                             <field class="oe_read_only" name="fuel_gauge"
                                                    attrs="{'readonly': [('state', '=', 'done')]}"
                                                    widget="gauge"
-                                                   options="{'label_field': 'fuel_gauge_unit', 'maxValueField': 'fuel_gauge_max'}"/>
-
+                                                   options="{'label_field': 'fuel_gauge_unit'}"/>
                                         </div>
                                         <field name="fuel_type_id" attrs="{'readonly': [('state', '=', 'done')]}"
                                                options="{'no_open': True}"/>
@@ -247,7 +242,7 @@
                             </page>
 
                             <page string="Images" name="image">
-                                <h2 style="color:rgb(54, 136, 199)">Before Service</h2>
+                                <h2 style="color:rgb(63, 150, 216)">Before Service</h2>
                                 <field name="before_service_image_ids">
                                     <kanban string="image">
                                         <field name="id"/>

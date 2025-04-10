@@ -48,7 +48,6 @@ class VehicleRepairWorkOrder(models.Model):
     fuel_value = fields.Integer(string='Fuel Level')
     fuel_gauge = fields.Integer(related="fuel_value")
     fuel_gauge_unit = fields.Char()
-    fuel_gauge_max = fields.Integer(string='Maximum Fuel Level', default=100)
     fuel_type_id = fields.Many2one('fuel.type', string='Fuel Type', ondelete="restrict")
     year_of_manufacturing = fields.Char(string="Year of Manufacturing")
     warranty_date = fields.Boolean(string='Warranty')

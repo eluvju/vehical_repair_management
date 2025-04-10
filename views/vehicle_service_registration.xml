@@ -218,6 +218,10 @@
                                             <field class="oe_edit_only" name="fuel_gauge_unit"
                                                    placeholder="eg. % or Liter or Unit etc."
                                                    attrs="{'readonly': [('state', '=', 'done')]}"/>
+                                            <!-- Adicione este campo antes do gauge -->
+                                            <field class="oe_edit_only" name="fuel_gauge_max" 
+                                                   attrs="{'readonly': [('state', '=', 'done')]}" 
+                                                   invisible="1"/>
                                             <field class="oe_read_only" name="fuel_gauge"
                                                    attrs="{'readonly': [('state', '=', 'done')]}"
                                                    widget="gauge"

@@ -242,7 +242,7 @@
                             </page>
 
                             <page string="Images" name="image">
-                                <h2 style="color:rgb(63, 150, 216)">Before Service</h2>
+                                <h2 style="color:rgb(54, 136, 199)">Before Service</h2>
                                 <field name="before_service_image_ids">
                                     <kanban string="image">
                                         <field name="id"/>
